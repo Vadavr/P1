@@ -1,0 +1,12 @@
+server:
+  port: 8082
+messenger:
+  host: localhost
+  port: 8432
+spring:
+  kafka:
+    consumer:
+      group-id: 2
+logging:
+  pattern:
+    console:
